@@ -7,11 +7,11 @@ do
   do
     mkdir $M
     cd $M
-    for D in {29..29}
+    for D in {31..31}
     do
       mkdir $D
       cd $D
-      for i in {01..02}
+      for i in {01..04}
       do
         echo "$i on $M/$D/$Y" > commit.md
         export GIT_COMMITTER_DATE="$Y-$M-$D 12:$i:00"
